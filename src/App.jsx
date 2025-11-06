@@ -55,7 +55,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import * as THREE from 'three';
 import { MessageSquare, Plus, TrendingUp, Users, CheckCircle } from 'lucide-react';
 
-const API_URL = 'http://localhost:5000/api';
+const API_URL = ' https://sinister-backend.onrender.com';
 
 function App() {
   const [activeTab, setActiveTab] = useState('report');
