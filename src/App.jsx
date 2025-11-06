@@ -2100,11 +2100,12 @@ function App() {
         <header className="backdrop-blur-md bg-white/10 border-b border-white/20">
           <div className="max-w-7xl mx-auto px-6 py-6">
             <h1 className="text-4xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-              Community Problem Solver
+              Report De Campus
             </h1>
             <p className="text-blue-200 mt-2">Build a platform for students to report and track community issues</p>
           </div>
         </header>
+        
 
         <nav className="backdrop-blur-md bg-white/5 border-b border-white/10">
           <div className="max-w-7xl mx-auto px-6">
@@ -2153,16 +2154,17 @@ function App() {
                 <div>
                   <label className="block text-sm font-medium mb-2">Category</label>
                   <select
-                    value={formData.category}
-                    onChange={(e) => setFormData({ ...formData, category: e.target.value })}
-                    className="w-full px-4 py-3 rounded-lg bg-white/5 border border-white/20 focus:border-blue-400 focus:outline-none focus:ring-2 focus:ring-blue-400/50 text-white"
-                  >
-                    <option value="infrastructure">Infrastructure</option>
-                    <option value="safety">Safety</option>
-                    <option value="environment">Environment</option>
-                    <option value="education">Education</option>
-                    <option value="health">Health</option>
-                  </select>
+  value={formData.category}
+  onChange={(e) => setFormData({ ...formData, category: e.target.value })}
+  className="w-full px-4 py-3 rounded-lg bg-gray-800 border border-gray-600 text-white focus:border-blue-400 focus:outline-none focus:ring-2 focus:ring-blue-400/50 appearance-none"
+>
+  <option value="infrastructure" className="bg-gray-800 text-white">Infrastructure</option>
+  <option value="safety" className="bg-gray-800 text-white">Safety</option>
+  <option value="environment" className="bg-gray-800 text-white">Environment</option>
+  <option value="education" className="bg-gray-800 text-white">Education</option>
+  <option value="health" className="bg-gray-800 text-white">Health</option>
+</select>
+
                 </div>
 
                 <div>
