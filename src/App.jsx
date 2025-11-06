@@ -689,7 +689,7 @@ function App() {
         <header className="backdrop-blur-md bg-white/5 border-b border-white/10">
           <div className="max-w-7xl mx-auto px-6 py-6">
             <h1 className="text-4xl font-bold text-white">
-              Community Problem Solver
+              Tour De Campus
             </h1>
             <p className="text-gray-400 mt-2">Report and track community issues efficiently</p>
           </div>
